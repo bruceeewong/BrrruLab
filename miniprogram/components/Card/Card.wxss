@@ -1,0 +1,15 @@
+/* components/Card/Card.wxss */
+.card {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8rpx;
+  border: 2rpx solid #fff;
+}
+.card__header {
+  padding: 20rpx;
+  border-bottom: 2rpx solid #eee;
+}
+.card__body {
+  padding: 20rpx;
+}

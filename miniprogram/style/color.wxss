@@ -1,0 +1,15 @@
+.primary {
+  color: #007bff;
+}
+.dark {
+  color: #343a40;
+}
+.secondary {
+  color: #6c757d;
+}
+.light {
+  color: #f8f9fa;
+}
+.info {
+  color: #17a2b8;
+}

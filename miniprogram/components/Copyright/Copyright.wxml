@@ -1,0 +1,4 @@
+<view class="copyright">
+  <image class="copyright__img" src="../../assets/icons/copyright.png"></image>
+  <text class="copyright__text">2019 Powered by BrrruLab.</text>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "My Team!",
+  "usingComponents": {
+    "copyright": "/components/Copyright/Copyright",
+    "card": "/components/Card/Card"
+  }
+}

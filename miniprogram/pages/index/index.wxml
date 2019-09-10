@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="header">
+    <view class="hero">
+      <text class="hero__title">BrrruLab</text>
+      <text class="hero__subtitle">WHERE COOL THINGS GATHER</text>
+    </view>
+  </view>
+  <view class="main">
+    <card>
+      <navigator url="/pages/myteam_index/myteam_index">
+        <view class="project">
+          <view class="project__info">
+            <image class="info__img" src="../../assets/icons/basketball.png"></image>
+            <text class="info__title">My Team!</text>
+          </view>
+          <image class="goto" src="../../assets/icons/goto.png"></image>
+        </view>
+      </navigator>
+      </card>
+  </view>
+  <view class="footer">
+    <copyright></copyright>
+  </view>
+</view>

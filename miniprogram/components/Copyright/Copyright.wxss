@@ -1,0 +1,16 @@
+/* components/Copyright/Copyright.wxss */
+.copyright {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 40rpx;
+  text-align: center;
+}
+.copyright__img {
+  width: 20rpx;
+  height: 20rpx;
+}
+.copyright__text {
+  margin-left: 10rpx;
+  font-size: 0.8em;
+  color: #6c757d;
+}

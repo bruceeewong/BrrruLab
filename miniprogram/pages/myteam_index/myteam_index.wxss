@@ -1,0 +1,63 @@
+/* pages/myteam_index/myteam_index.wxss */
+.header, .main {
+  padding: 20rpx;
+}
+.team__header {
+  text-align: center;
+}
+.team__name {
+  font-size: 1.3em;
+}
+.team__body {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.team__info {
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  color: #6c757d;
+}
+.member-card {
+  margin-top: 20rpx;
+}
+.member-card:nth-child(1) {
+  margin-top: 0;
+}
+.member {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  padding: 10rpx 0;
+}
+.member__avatar {
+  width: 100rpx;
+  height: 100rpx;
+}
+.member__info {
+  width: 80%;
+  margin-left: 30rpx;
+}
+.info {
+  display: block;
+}
+.member__name {
+  font-size: 1.2em;
+}
+.member__num, .member__labels {
+  font-size: 0.8em;
+  color: #6c757d;
+}
+.member__labels {
+  line-height: 0.6;
+}
+.member__label {
+  display: inline-block;
+  color: #6c757d;
+}

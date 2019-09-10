@@ -1,0 +1,11 @@
+@import "./style/weui.wxss";
+
+page{
+  background-color: #EDEDED;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

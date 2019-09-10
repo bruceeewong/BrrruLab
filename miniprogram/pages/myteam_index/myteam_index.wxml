@@ -1,0 +1,47 @@
+<view class="container">
+  <view class="header">
+    <card class="team" has-header="{{true}}">
+      <view slot="header">
+        <view class="team__header">
+          <text class="team__name">{{team.name}}</text>
+        </view>
+      </view>
+      <view class="team__body">
+        <text class="team__info">创队时间: {{team.createTime}}</text>
+        <text class="team__info">球队人数: {{team.memberNum}}</text>
+      </view>
+    </card>
+  </view>
+  <view class="main">
+    <view 
+      wx:for="{{memberGroup}}" 
+      wx:for-item="member" 
+      wx:key="{{member.num}}"
+      class="member-card"
+    >
+      <card>
+        <view class="member">
+          <image class="member__avatar" src="{{member.avatar}}"></image>
+          <view class="member__info">
+            <text class="info member__name">{{member.name}}</text>
+            <text class="info member__num">球衣号码: {{member.num}}</text>
+            <view class="member__labels">
+              位置:
+              <text 
+                wx:for="{{member.labels}}" 
+                wx:for-item="label" 
+                wx:key="{{label}}"
+                class="member__label"
+              >
+                {{label}}
+              </text>
+            </view>
+          </view>
+        </view>
+      </card>
+    </view>
+  </view>
+  <view class="footer">
+    <copyright></copyright>
+  </view>
+</view>
